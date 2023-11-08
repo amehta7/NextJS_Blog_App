@@ -26,7 +26,7 @@ const handler = async (req, res) => {
 
     let client
 
-    let connectionString = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@cluster0.a0wzikd.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`
+    let connectionString = `mongodb+srv://${process.env.NEXT_PUBLIC_DB_USERNAME}:${process.env.NEXT_PUBLIC_DB_PASSWORD}@cluster0.a0wzikd.mongodb.net/NEXTJS_BLOG_API?retryWrites=true&w=majority`
 
     try {
       client = await MongoClient.connect(connectionString)
