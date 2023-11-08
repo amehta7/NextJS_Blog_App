@@ -1,5 +1,7 @@
-## NextJS_Blog_App - 
+## NextJS_Blog_App 
 Built the application to manage posts using NextJS, React, MongoDB.
+
+- Live Site URL: [@Vercel](https://next-js-blog-qi7casiez-a-b-patels-projects.vercel.app/)
 
 ### Getting Started
 
