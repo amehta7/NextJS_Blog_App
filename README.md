@@ -1,6 +1,6 @@
-##NextJS_Blog_App - Built the application to manage posts using NextJS, React, MongoDB.
+# NextJS_Blog_App - Built the application to manage posts using NextJS, React, MongoDB.
 
-## Getting Started
+# Getting Started
 
 To start the development server:
 
